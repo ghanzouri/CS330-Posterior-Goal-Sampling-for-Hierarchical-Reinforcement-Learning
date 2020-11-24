@@ -30,4 +30,4 @@ The repository's high-level structure is:
 ## **Modifications**
 We are working on the h-DQN algorithm and provided a modified version that includes an Ensemble DQN Hierarchical RL for efficient high-level policy learning. The code is present in agents/hierarchical_agents/bh_agents.py.
 
-We also included a new function in agents/DQN_agents/DQN.py that allows goal sampling among all Q heads functions.
+We also included a new function pick_actions2() in agents/DQN_agents/DQN.py that allows goal sampling among all Q heads functions.
