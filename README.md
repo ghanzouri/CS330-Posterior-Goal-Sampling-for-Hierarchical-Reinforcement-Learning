@@ -7,7 +7,7 @@ Original Github code : [Deep Reinforcement Learning Algorithms with PyTorch](htt
 This repository contains PyTorch implementations of deep reinforcement learning algorithms and environments.   
         
 ## **Algorithms Implemented**  
-*Hierarchical-DQN (h-DQN)* <sub><sup> ([Kulkarni et al. 2016](https://arxiv.org/pdf/1604.06057.pdf)) </sup></sub>
+This work is a replication of *Hierarchical-DQN (h-DQN), Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation* <sub><sup> ([Kulkarni et al. 2016](https://arxiv.org/pdf/1604.06057.pdf)) </sup></sub>
 ## **Environments Implemented**
 *Long Corridor Game* <sub><sup> (as described in [Kulkarni et al. 2016](https://arxiv.org/pdf/1604.06057.pdf)) </sup></sub>
 
