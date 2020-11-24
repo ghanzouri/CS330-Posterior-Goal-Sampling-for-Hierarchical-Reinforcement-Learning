@@ -10,7 +10,7 @@ config = Config()
 config.seed = 1
 config.env_parameters = {"stochasticity_of_action_right": 0.5}
 config.environment = Long_Corridor_Environment(stochasticity_of_action_right=config.env_parameters["stochasticity_of_action_right"])
-config.num_episodes_to_run = 1000
+config.num_episodes_to_run = 10000
 config.file_to_save_data_results = "Data_and_Graphs/Long_Corridor_Results_Data.pkl"
 config.file_to_save_results_graph = "Data_and_Graphs/Long_Corridor_Results_Graph.png"
 config.show_solution_score = False
@@ -18,7 +18,6 @@ config.visualise_individual_results = False
 config.visualise_overall_agent_results = True
 config.standard_deviation_results = 1.0
 config.runs_per_agent = 3
-# config.runs_per_agent = 1
 config.use_GPU = False
 config.overwrite_existing_results_file = False
 config.randomise_random_seed = True
@@ -68,7 +67,7 @@ config.hyperparameters = {
     "bh_DQN": {
         "CONTROLLER": {
             "batch_size": 256,
-            "tau":0.1,
+            "tau":0.9,
             "learning_rate": 0.01,
             "buffer_size": 40000,
             "linear_hidden_units": [20, 10],
@@ -87,7 +86,7 @@ config.hyperparameters = {
         },
         "META_CONTROLLER": {
             "batch_size": 256*2,
-            "tau":0.01,
+            "tau":0.9,
             "learning_rate": 0.001,
             "buffer_size": 40000,
             "linear_hidden_units": [20, 10],
