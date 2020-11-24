@@ -3,6 +3,7 @@
 ![RL](utilities/RL_image.jpeg)   ![PyTorch](utilities/PyTorch-logo-2.jpg)
 
 Original Github code : [Deep Reinforcement Learning Algorithms with PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch).
+
 This repository contains PyTorch implementations of deep reinforcement learning algorithms and environments. 
 
 ### Usage ###
@@ -27,5 +28,6 @@ The repository's high-level structure is:
 *Long Corridor Game* <sub><sup> (as described in [Kulkarni et al. 2016](https://arxiv.org/pdf/1604.06057.pdf)) </sup></sub>
 
 ## **Modifications**
-We are working on the h-DQN algorithm and provided a modified version that includes an Ensemble DQN Hierarchical RL for efficient high-level policy learning. The code is present in agents/hierarchical_agents/bh_agents.py \\
+We are working on the h-DQN algorithm and provided a modified version that includes an Ensemble DQN Hierarchical RL for efficient high-level policy learning. The code is present in agents/hierarchical_agents/bh_agents.py.
+
 We also included a new function in agents/DQN_agents/DQN.py that allows goal sampling among all Q heads functions.
