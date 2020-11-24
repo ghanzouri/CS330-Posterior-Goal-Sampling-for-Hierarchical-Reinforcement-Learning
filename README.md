@@ -18,6 +18,9 @@ We also included a new function pick_actions2() in agents/DQN_agents/DQN.py that
 
 ## **Execution**
 
+```commandline
+python results/Long_Corridor.py
+``` 
 
 ### Usage ###
 The repository's high-level structure is:
@@ -35,6 +38,4 @@ The repository's high-level structure is:
     ├── utilities             
         └── data structures   
 
-```commandline
-python results/Long_Corridor.py
-``` 
+
