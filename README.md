@@ -2,10 +2,9 @@
 
 ![RL](utilities/RL_image.jpeg)   ![PyTorch](utilities/PyTorch-logo-2.jpg)
 
-Original Github code : [Deep Reinforcement Learning Algorithms with PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch).
+Original Github repository : [Deep Reinforcement Learning Algorithms with PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch).
 
-This work was done as a class project for CS 330 : Deep Multi-Task and Meta Learning.
-This work is a replication of Hierarchical-DQN (h-DQN), (*Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation* <sub><sup> ([Kulkarni et al. 2016](https://arxiv.org/pdf/1604.06057.pdf)) </sup></sub>) on the *Long Corridor Game* environment.
+This work was done as a class project for CS 330 : Deep Multi-Task and Meta Learning. It is a replication of Hierarchical-DQN (h-DQN), (*Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation* <sub><sup> ([Kulkarni et al. 2016](https://arxiv.org/pdf/1604.06057.pdf)) </sup></sub>) on the *Long Corridor Game* environment.
 
 ## **Modifications**
 We are working on the h-DQN algorithm and provided a modified version that includes an Ensemble DQN Hierarchical RL for efficient high-level policy learning. The code is present in agents/hierarchical_agents/bh_agents.py.
