@@ -7,7 +7,7 @@ Original Github repository : [Deep Reinforcement Learning Algorithms with PyTorc
 This work was done as a class project for CS 330 : Deep Multi-Task and Meta Learning. It is a replication of Hierarchical-DQN (h-DQN), (*Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation* <sub><sup> ([Kulkarni et al. 2016](https://arxiv.org/pdf/1604.06057.pdf)) </sup></sub>) on the *Long Corridor Game* environment.
 
 ## **Modifications**
-We are working on the h-DQN algorithm and provided a modified version that includes an Ensemble DQN Hierarchical RL for efficient high-level policy learning. The code is present in agents/hierarchical_agents/bh_agents.py.
+The work was done on the h-DQN algorithm and provided a modified version that includes a Hierarchical-Ensemble DQN RL for efficient high-level policy learning. The code is present in agents/hierarchical_agents/bh_agents.py.
 
 We also included a new function pick_actions2() in agents/DQN_agents/DQN.py that allows goal sampling among all Q heads functions.
 
